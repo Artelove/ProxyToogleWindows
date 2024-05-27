@@ -48,3 +48,35 @@ set proxyExceptions=*.local;127.0.0.1;www.youtube.com
 ## Notes
 - Administrator privileges may be required to modify the registry and proxy settings.
 - The script is designed for Windows systems and may not work on other operating systems.
+
+## Easier Usage with AutoHotkey
+
+For more convenient usage, you can utilize the `toggle_proxy.ahk` script provided. 
+
+### How to Use `toggle_proxy.ahk`
+
+#### Prerequisites
+
+1. **Ensure AutoHotkey is Installed:**
+    - If you haven't already, download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/).
+
+2. **Ensure `ProxyToggle.bat` Exists:**
+    - The `ProxyToggle.bat` script, which toggles the proxy settings, should be in the same directory as the `toggle_proxy.ahk` script or in a known directory.
+
+#### How to Use
+
+1. **Download and Install AutoHotkey:**
+    - Download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/).
+
+2. **Configure the Batch Script (`ProxyToggle.bat`):**
+    - Ensure the `proxySwitcher.bat` script is correctly configured to toggle your proxy settings. This script should contain the logic to switch your proxy on and off, similar to the batch script described earlier.
+
+3. **Configure the AutoHotkey Script (`toggle_proxy.ahk`):**
+    - Open the `toggle_proxy.ahk` file in a text editor.
+    - Ensure the path to `ProxyToggle.bat` is correct if it's not in the same directory.
+
+4. **Run the AutoHotkey Script:**
+    - Double-click the `toggle_proxy.ahk` file to run the script.
+    - Press the key combination Shift + Ctrl + Win + P to toggle the proxy settings.
+
+With AutoHotkey, you can also create hotkeys to toggle the proxy settings with a simple keyboard shortcut, making it even easier to manage your proxy configuration.
