@@ -1,3 +1,3 @@
 +^#p:: ; Shift + Ctrl + Win + P
-Run, proxySwitcher.bat,, Hide
+Run, ProxyToogle.bat,, Hide
 return
