@@ -1,6 +1,3 @@
-Конечно, вот код с переводом на английском языке рядом:
-
-```batch
 @echo off
 setlocal enabledelayedexpansion
 
@@ -46,4 +43,3 @@ if "!ProxyStatus!"=="0" (
 
 endlocal
 exit
-```
