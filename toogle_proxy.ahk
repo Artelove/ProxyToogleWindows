@@ -1,7 +1,7 @@
-#z:: ; Win + Z
-Run, ProxyToogle.bat,, Hide
-return
+#z:: {
+    Run "ProxyToogle.bat", , "Hide"
+}
 
-+^#p:: ; Shift + Ctrl + Win + P
-Run, ProxyToogle.bat,, Hide
-return
++^#p:: {
+    Run "ProxyToogle.bat", , "Hide"
+}
