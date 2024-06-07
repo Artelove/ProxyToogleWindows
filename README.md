@@ -58,7 +58,7 @@ For more convenient usage, you can utilize the `toggle_proxy.ahk` script provide
 #### Prerequisites
 
 1. **Ensure AutoHotkey is Installed:**
-    - If you haven't already, download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/).
+    - If you haven't already, download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/download/ahk-v2.exe).
 
 2. **Ensure `ProxyToggle.bat` Exists:**
     - The `ProxyToggle.bat` script, which toggles the proxy settings, should be in the same directory as the `toggle_proxy.ahk` script or in a known directory.
@@ -66,7 +66,7 @@ For more convenient usage, you can utilize the `toggle_proxy.ahk` script provide
 #### How to Use
 
 1. **Download and Install AutoHotkey:**
-    - Download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/).
+    - Download and install AutoHotkey from [https://www.autohotkey.com/](https://www.autohotkey.com/download/ahk-v2.exe).
 
 2. **Configure the Batch Script (`ProxyToggle.bat`):**
     - Ensure the `proxySwitcher.bat` script is correctly configured to toggle your proxy settings. This script should contain the logic to switch your proxy on and off, similar to the batch script described earlier.
